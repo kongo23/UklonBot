@@ -150,12 +150,4 @@ This section will briefly summarize the technical story with the following detai
 
 
 ## Additional resources ##
-In this section, include a list of links to resources that complement your story, including (but not limited to) the following:
 
-- Documentation
-
-- Blog posts
-
-- GitHub repos
-
-- Etc…
