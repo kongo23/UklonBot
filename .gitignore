@@ -240,3 +240,16 @@ ModelManifest.xml
 
 # FAKE - F# Make
 .fake/
+/UklonBot.sln
+/UklonBot/UklonBot/
+/UklonBot/Web.Release.config
+/UklonBot/Web.Debug.config
+/UklonBot/Web.config
+/UklonBot/UklonBot.csproj
+/UklonBot/packages.config
+/UklonBot/Global.asax
+/UklonBot/ApplicationInsights.config
+/UklonBot/Service References/Application Insights
+/UklonBot/Properties
+/UklonBot/App_Start
+/UklonBot/Migrations
