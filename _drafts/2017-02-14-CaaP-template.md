@@ -11,9 +11,7 @@ color: "blue"
 ---
 
 
-Microsoft team had a discussion with Uklon about the opportunities for implementation of new CaaP and CS based services focused on
-
-improvement of existing company’s software solution aimed to help users order taxi. Outcomes of the project may positively effect on the
+Microsoft team had a discussion with Uklon about the opportunities for implementation of new CaaP and CS based services focused on improvement of existing company’s software solution aimed to help users order taxi. Outcomes of the project may positively effect on the
 
 Uklon services market presence and arrange larger audience by increasing the number of channels for interaction with service and thus,
 
