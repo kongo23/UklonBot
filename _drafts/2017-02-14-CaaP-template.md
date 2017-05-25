@@ -8,16 +8,8 @@ date:   2017-05-25
 categories: [Bot Framework]
 color: "blue"
 #image: "#" 
-excerpt: Add a short description of what this article is about, helping a fellow developer understand why they would want to read it. What value will they get out of reading it? Focus on the problem or technologies and let that be the guiding light.
-language: The language of the article (e.g.: [English])
-verticals: The vertical markets this article has focus on (e.g.: [Energy, Manufacturing & Resources, Financial Services, Public Sector, “Retail, Consumer Products & Services”, Environmental, Communications/Media, Transportation & Logistics, Smart Cities, Agricultural, Environmental, Healthcare, Other])
-geolocation: The geolocation of the article
-permalink: /<page-title>.html Use this section to set a custom URL for your page. The value set in this setting will be added to the base URL. For example if you set "/mycustomurl.html", your URL will be "https://microsoft.github.io/techcasestudies/mycustomurl.html"
----
 
-Begin with an intro statement with the following details:
 
-- Solution overview
 Microsoft team had a discussion with Uklon about the opportunities for implementation of new CaaP and CS based services focused on
 
 improvement of existing company’s software solution aimed to help users order taxi. Outcomes of the project may positively effect on the
@@ -37,13 +29,13 @@ After Phase One is successfully implemented, Uklon also plans to integrate addit
 Ukraine, VK and others. Also, it is possibility to enhance solution by adding Cognitive Services LUIS AI for data processing and automation.
  
 - Key technologies used
-· CaaP
+- CaaP
 
-· Bot Builder SDK
+- Bot Builder SDK
 
-· Bot Connector Service
+- Bot Connector Service
 
-· Node JS
+- Node JS
  
 - Core Team: Names, roles and Twitter handles 
 
@@ -51,54 +43,58 @@ Ukraine, VK and others. Also, it is possibility to enhance solution by adding Co
 ## Customer profile ##
 This section will contain general information about the customer, including the following:
 
-- Company name and URL
+- Uklon | https://uklon.com.ua/
 
-- Company description
+- Uklon is online transportation network company which was founded same year as Uber (2009). Despite tight competition from Uber, Yandex,
 
-- Company location
+Red, Tap Taxi services Uklon (uklon.com.ua) is significantly bigger in terms of number of trips provided and with widest geography. Previous
 
-- What are their product/service offerings?
+year company extend their present, while launching service in Georgia.
+
+Uklon chose Microsoft as it provides a great set of cross-platform CaaP services based on Azure technologies that may be used for integration
+
+with multiple API’s and ensures solution stability, consistency, and efficiency.
+
+Moreover, architecture is capable of expansion via integration with additional technologies for improvement in collaboration effectiveness
+
+with consumers (especially, with such instant messaging platforms (IMP’s) as Skype and Facebook for Phase One, and Viber, Telegram, VK and
+
+others for Subsequent Phases). Besides that, solution may be easily powered with Cognitive Services for data processing, like LUIS AI.
+
+- Company location: Kyiv, Ukraine.
 
 
-
- 
 ## Problem statement ##
 
 
-This section will define the problem(s)/challenges that the customer wants to address with a CaaP solution. Include things like costs, customer experience, etc.
- 
-*If you’d really like to make your write-up pop, include a customer quote that highlights the customer’s problem(s)/challenges. Attribute all quotes with Name, Title, Company.*
+Currently, to order taxi with Uklon (Uber or any other) user forced to download app from store, create account, add payment method and
+
+many other steps that are not directly related to the trip. In eyes of consumer basic needs is much simpler. User just need a car in the place
+
+he wants as fast as possible.
+
+Also, users are unable to get access to app or web version in case if internet connection is limited by Ukrainian telecom provider because of
+
+reaching a limit on their prepaid mobile accounts. It usually also leads to inability for making a phone call too.
+
+Even more, there is always a target audience passionate about new technologies on the market who are focused on using innovative solutions
+
+and so, often attracted by competitors who provide unique additional services and app features.
 
 
  
 ## Solution and steps ##
 
 
-The majority of your win artifacts will be included in this section, including (but not limited to) the following: Source code snippets, pictures, drawings, architectural diagrams, value stream mappings, and demo videos.
+Bot solves the user’s needs in the quickest and easiest way compared to application.
 
-This section should include the following details:
+As far as cash is main scenario to pay for taxi service in Ukraine, there is no need to add payment data or create account accordingly. Only
 
-- What was worked on and what problem it helped solve.
+required data from user is phone number, so driver can call user beck. In case if bot was used once (so platform store users phone number)
 
-- Architecture diagram/s (**required**). Example below:
+calling taxi looks as simple as launch preferred messaging platform and provide it with pickup address. That's it!
 
- ![IoT Architecture Diagram](/images/templates/caaparchitecture.png)
-
-**Directions for adding images:**
-
-1. Create a folder for your project images in the “images” folder in the GitHub repo files. This is where you will add all of the images associated with your write-up.
- 
-2. Add links to your images using the following absolute path:
-
-  `![Description of the image]({{site.baseurl}}/images/projectname/myimage.png)`
-    
-  Here’s an example: 
-
-  `![Value Stream Mapping]({{site.baseurl}}/images/orckestra/orckestra2.jpg)`
-
- Note that capitalization of the file name and the file extension must match exactly for the images to render properly.
-
-*If you’d really like to make your write-up pop, include a customer quote that highlights the solution. Attribute all quotes with Name, Title, Company.*
+Moreover, chat bots may help to avoid a huge stopper for users to order a taxi, such as inability to order via phone, app or website because of absence of money on mobile accounts, as vast majority of Ukrainian telecom providers include an unlimited free access to instant messaging platforms, such as Skype, Facebook, VK, Viber etc. Company had internal discussion on bot launch previous year, however support of several platforms force them to postpone development. A bit later competition moved it to the next stage - libre taxi (http://libretaxi.org/) is first international "OSS" taxi, which launched recently and it's available via Telegram bot platform only (no www or apps). Outcome 1. Uklon is aggressive in marketing, so we can expect promotion, including ATL advertising. 2.In terms of visibility in tech audience, keys are outstanding, as far as Uklon one of the most visible local consumer ISV (Ukraine + Georgia) which compete with international giants. 3. As of now Uklon bought on-prem infrastructure to support their current workloads. CaaP is good entry point to seed Azure PaaS and SaaS solutions for upcoming services. As far as audience of taxi is wide, Uklon is in need to support number of different platforms to fully cover the target audience and simplify the interaction process to avoid any obstacles between system and user that can possibly arise. It may tend to increase in total number of regular users. Thanks to chat bot platform they can make it in a single unified way, without supporting multiple platforms.
 
 
 ## Technical delivery ##
@@ -117,7 +113,7 @@ This section will include the following details of how the solution was implemen
 
 - Technology Integration
 
-	- Azure Storage, Compute or services
+	- Azure WebApp, Azure SQL.
 
 	- Microsoft Canvas, 3rd Party Channels
 
