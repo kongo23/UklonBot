@@ -1,13 +1,13 @@
 ---
 layout: post
-title:  "Add title with customer name here"
-author: "Add author name here"
-author-link: "Add URL for author's Twitter account here"
-#author-image: "{{ site.baseurl }}/images/authors/photo.jpg"
-date:   2017-02-14
+title:  "Uklon Bot"
+author: "SMART business"
+author-link: "#"
+#author-image: "#"
+date:   2017-05-25
 categories: [Bot Framework]
 color: "blue"
-#image: "{{ site.baseurl }}/images/imagename.png" #should be ~350px tall
+#image: "#" 
 excerpt: Add a short description of what this article is about, helping a fellow developer understand why they would want to read it. What value will they get out of reading it? Focus on the problem or technologies and let that be the guiding light.
 language: The language of the article (e.g.: [English])
 verticals: The vertical markets this article has focus on (e.g.: [Energy, Manufacturing & Resources, Financial Services, Public Sector, “Retail, Consumer Products & Services”, Environmental, Communications/Media, Transportation & Logistics, Smart Cities, Agricultural, Environmental, Healthcare, Other])
@@ -18,8 +18,32 @@ permalink: /<page-title>.html Use this section to set a custom URL for your page
 Begin with an intro statement with the following details:
 
 - Solution overview
+Microsoft team had a discussion with Uklon about the opportunities for implementation of new CaaP and CS based services focused on
+
+improvement of existing company’s software solution aimed to help users order taxi. Outcomes of the project may positively effect on the
+
+Uklon services market presence and arrange larger audience by increasing the number of channels for interaction with service and thus,
+
+enhancing simplicity and effectiveness of taxi services distribution over the different user groups. Microsoft also has a great advantage to
+
+implement new tools and services over the Ukrainian market in purely unique niche.
+
+Microsoft and Uklon agreed to develop a POC version for Phase One, which will include CaaP services integration with Skype and Facebook
+
+IMP’s.
+
+After Phase One is successfully implemented, Uklon also plans to integrate additional IMP’s, such as Viber, the top second platform over
+
+Ukraine, VK and others. Also, it is possibility to enhance solution by adding Cognitive Services LUIS AI for data processing and automation.
  
 - Key technologies used
+· CaaP
+
+· Bot Builder SDK
+
+· Bot Connector Service
+
+· Node JS
  
 - Core Team: Names, roles and Twitter handles 
 
