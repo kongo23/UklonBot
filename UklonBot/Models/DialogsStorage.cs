@@ -6,8 +6,7 @@ namespace UklonBot.Models
 {
     public static class DialogsStorage
     {
-        //// todo make private
-        /*private*/ public static readonly List<Dialog> Dialogs = new List<Dialog>();
+        private static readonly List<Dialog> Dialogs = new List<Dialog>();
 
         public static Dialog FirstOrDefault(Func<Dialog, bool> predicate)
         {
