@@ -29,7 +29,7 @@ After Phase One is successfully implemented, Uklon also plans to integrate addit
 
 Ukraine, VK and others. Also, it is possibility to enhance solution by adding Cognitive Services LUIS AI for data processing and automation.
  
-- Key technologies used
+Key technologies used:
 - CaaP
 
 - Bot Builder SDK
@@ -48,19 +48,11 @@ This section will contain general information about the customer, including the 
 
 - Uklon is online transportation network company which was founded same year as Uber (2009). Despite tight competition from Uber, Yandex,
 
-Red, Tap Taxi services Uklon (uklon.com.ua) is significantly bigger in terms of number of trips provided and with widest geography. Previous
+Red, Tap Taxi services Uklon (uklon.com.ua) is significantly bigger in terms of number of trips provided and with widest geography. Previous year company extend their present, while launching service in Georgia.
 
-year company extend their present, while launching service in Georgia.
+Uklon chose Microsoft as it provides a great set of cross-platform CaaP services based on Azure technologies that may be used for integration with multiple API’s and ensures solution stability, consistency, and efficiency.
 
-Uklon chose Microsoft as it provides a great set of cross-platform CaaP services based on Azure technologies that may be used for integration
-
-with multiple API’s and ensures solution stability, consistency, and efficiency.
-
-Moreover, architecture is capable of expansion via integration with additional technologies for improvement in collaboration effectiveness
-
-with consumers (especially, with such instant messaging platforms (IMP’s) as Skype and Facebook for Phase One, and Viber, Telegram, VK and
-
-others for Subsequent Phases). Besides that, solution may be easily powered with Cognitive Services for data processing, like LUIS AI.
+Moreover, architecture is capable of expansion via integration with additional technologies for improvement in collaboration effectiveness with consumers (especially, with such instant messaging platforms (IMP’s) as Skype and Facebook for Phase One, and Viber, Telegram, VK and others for Subsequent Phases). Besides that, solution may be easily powered with Cognitive Services for data processing, like LUIS AI.
 
 - Company location: Kyiv, Ukraine.
 
@@ -68,22 +60,13 @@ others for Subsequent Phases). Besides that, solution may be easily powered with
 ## Problem statement ##
 
 
-Currently, to order taxi with Uklon (Uber or any other) user forced to download app from store, create account, add payment method and
+Currently, to order taxi with Uklon (Uber or any other) user forced to download app from store, create account, add payment method and many other steps that are not directly related to the trip. In eyes of consumer basic needs is much simpler. User just need a car in the place he wants as fast as possible.
 
-many other steps that are not directly related to the trip. In eyes of consumer basic needs is much simpler. User just need a car in the place
+Also, users are unable to get access to app or web version in case if internet connection is limited by Ukrainian telecom provider because of reaching a limit on their prepaid mobile accounts. It usually also leads to inability for making a phone call too.
 
-he wants as fast as possible.
-
-Also, users are unable to get access to app or web version in case if internet connection is limited by Ukrainian telecom provider because of
-
-reaching a limit on their prepaid mobile accounts. It usually also leads to inability for making a phone call too.
-
-Even more, there is always a target audience passionate about new technologies on the market who are focused on using innovative solutions
-
-and so, often attracted by competitors who provide unique additional services and app features.
+Even more, there is always a target audience passionate about new technologies on the market who are focused on using innovative solutions and so, often attracted by competitors who provide unique additional services and app features.
 
 
- 
 ## Solution and steps ##
 
 
@@ -132,21 +115,9 @@ This section will include the following details of how the solution was implemen
  
 ## Conclusion ##
 
-This section will briefly summarize the technical story with the following details included:
+Online taxi ordering is still one of the hottest topics with potential growth in other cloud direction like IoT and Big data. Currently all service hosts on premise, This project would allow customer to try PaaS and SaaS solutions on Windows Azure and take it in consideration with father investments.
 
-- Measurable impact/benefits resulting from the implementation of the solution.
-
-- General lessons:
-
-  - Insights the team came away with
-
-  - What can be applied or reused for other environments or customers?
-
-- Opportunities going forward:
-
-  - Details on how the customer plans to proceed or what more they hope to accomplish
-
-*If you’d really like to make your write-up pop, include a customer quote highlighting impact, benefits, general lessons, and/or opportunities.*
+We will use CaaP to write one branch of code for multiple platforms. However, features for different messengers may vary, especially when we talk about kind of “advanced” features for bots today, like geo location. However, idea here is stay as simple as possible for consumer, and maps integration can be skipped for now, as other tricky features.
 
 
 ## Additional resources ##
