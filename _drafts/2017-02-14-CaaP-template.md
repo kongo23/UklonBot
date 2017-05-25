@@ -8,6 +8,7 @@ date:   2017-05-25
 categories: [Bot Framework]
 color: "blue"
 #image: "#" 
+---
 
 
 Microsoft team had a discussion with Uklon about the opportunities for implementation of new CaaP and CS based services focused on
