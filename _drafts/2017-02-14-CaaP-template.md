@@ -11,32 +11,7 @@ color: "blue"
 ---
 
 
-Microsoft team had a discussion with Uklon about the opportunities for implementation of new CaaP and CS based services focused on improvement of existing company’s software solution aimed to help users order taxi. Outcomes of the project may positively effect on the
-
-Uklon services market presence and arrange larger audience by increasing the number of channels for interaction with service and thus,
-
-enhancing simplicity and effectiveness of taxi services distribution over the different user groups. Microsoft also has a great advantage to
-
-implement new tools and services over the Ukrainian market in purely unique niche.
-
-Microsoft and Uklon agreed to develop a POC version for Phase One, which will include CaaP services integration with Skype and Facebook
-
-IMP’s.
-
-After Phase One is successfully implemented, Uklon also plans to integrate additional IMP’s, such as Viber, the top second platform over
-
-Ukraine, VK and others. Also, it is possibility to enhance solution by adding Cognitive Services LUIS AI for data processing and automation.
- 
-Key technologies used:
-- CaaP
-
-- Bot Builder SDK
-
-- Bot Connector Service
-
-- Node JS
- 
-- Core Team: Names, roles and Twitter handles 
+Microsoft team had a discussion with Uklon about the opportunities for implementation of new CaaP and CS based services focused on improvement of existing company’s software solution aimed to help users order taxi. Outcomes of the project may positively effect on the Uklon services market presence and arrange larger audience by increasing the number of channels for interaction with service and thus, enhancing simplicity and effectiveness of taxi services distribution over the different user groups. Microsoft also has a great advantage to implement new tools and services over the Ukrainian market in purely unique niche. Microsoft and Uklon agreed to develop a POC version for Phase One, which will include CaaP services integration with Skype and Facebook IMP’s. After Phase One is successfully implemented, Uklon also plans to integrate additional IMP’s, such as Viber, the top second platform over Ukraine, VK and others. Also, it is possibility to enhance solution by adding Cognitive Services LUIS AI for data processing and automation.
 
 
 ## Customer profile ##
@@ -82,33 +57,16 @@ Moreover, chat bots may help to avoid a huge stopper for users to order a taxi, 
 ## Technical delivery ##
 This section will include the following details of how the solution was implemented:
 
-- Bot Patterns
+Key technologies used:
+- CaaP
 
-- Core Bot Capabilities
+- Bot Builder SDK
 
-- Bot Intelligence
+- Bot Connector Service
 
-	- Cognitive Services
-
-	- Azure Search
-
-
-- Technology Integration
-
-	- Azure WebApp, Azure SQL.
-
-	- Microsoft Canvas, 3rd Party Channels
-
-- SDKs used, languages, etc.
-
-- Code artifacts
-
-- Pointers to references or documentation
-
-- Learnings from the Microsoft team and the customer team
-
-*If you’d really like to make your write-up pop, include a customer quote that highlights the solution. Attribute all quotes with Name, Title, Company.*
-
+- Node JS
+ 
+- Core Team: Names, roles and Twitter handles 
 
  
 ## Conclusion ##
